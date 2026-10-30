@@ -6,7 +6,7 @@
 
 拾词把“查词 → 理解语境 → 保存表达”放在同一个浏览器侧栏里。这也是我做 Vibe Coding 的方式：从自己的真实需求出发，把交互、数据备份、隐私和安装交付一起做完整。
 
-[下载安装包](lexiside-0.1.0-chrome.zip) · [使用说明](INSTALL.txt) · [隐私说明](PRIVACY.md) · [版本说明](RELEASE_NOTES.md) · [问题反馈](https://github.com/xdz97/lexiside/issues)
+[下载安装包](https://github.com/xdz97/lexiside/releases/download/v0.1.0/lexiside-0.1.0-chrome.zip) · [Release v0.1.0](https://github.com/xdz97/lexiside/releases/tag/v0.1.0) · [使用说明](INSTALL.txt) · [隐私说明](PRIVACY.md) · [版本说明](RELEASE_NOTES.md) · [问题反馈](https://github.com/xdz97/lexiside/issues)
 
 > 本仓库提供插件发行版、文档和实际使用截图，当前不包含开发源码。安装包免费提供；DeepSeek 和豆包等外部服务需要你自己的 API Key，费用由对应服务商按用量收取。
 
