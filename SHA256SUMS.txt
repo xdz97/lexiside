@@ -1,1 +1,1 @@
-54cd726b7bcd3097b39d4f186f04ab36ed7cb3170e432b19f3a0a6b263cb9b54  lexiside-0.1.0-chrome.zip
+d75c912473f8d60ecc84072e2e0bfa91a4dc8c4a00cf286896be49a38e9d535f  lexiside-0.1.1-chrome.zip

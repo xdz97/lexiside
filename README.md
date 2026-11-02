@@ -6,11 +6,20 @@
 
 拾词把“查词 → 理解语境 → 保存表达”放在同一个浏览器侧栏里。这也是我做 Vibe Coding 的方式：从自己的真实需求出发，把交互、数据备份、隐私和安装交付一起做完整。
 
-[下载安装包](https://github.com/xdz97/lexiside/releases/download/v0.1.0/lexiside-0.1.0-chrome.zip) · [Release v0.1.0](https://github.com/xdz97/lexiside/releases/tag/v0.1.0) · [使用说明](INSTALL.txt) · [隐私说明](PRIVACY.md) · [版本说明](RELEASE_NOTES.md) · [问题反馈](https://github.com/xdz97/lexiside/issues)
+[下载安装包](https://github.com/xdz97/lexiside/releases/download/v0.1.1/lexiside-0.1.1-chrome.zip) · [Release v0.1.1](https://github.com/xdz97/lexiside/releases/tag/v0.1.1) · [使用说明](INSTALL.txt) · [隐私说明](PRIVACY.md) · [版本说明](RELEASE_NOTES.md) · [问题反馈](https://github.com/xdz97/lexiside/issues)
 
 > 本仓库提供插件发行版、文档和实际使用截图，当前不包含开发源码。安装包免费提供；DeepSeek 和豆包等外部服务需要你自己的 API Key，费用由对应服务商按用量收取。
 
+## v0.1.1 更新
+
+- 再次查到已收藏的词或表达时，展示旧原句、当时含义和可打开的来源；支持确认后追加当前语境。
+- 每个词条默认保留最近 3 条语境，按保存顺序 FIFO 淘汰。可在「设置 → 数据与隐私 → 词库语境」调整为 1–100 条，移开焦点或按回车保存。
+- 重复保存不刷新队列位置；调小上限立即裁剪，调大不会恢复已淘汰记录。旧版超额记录首次读取时裁剪，导入与恢复也遵守上限。
+- 更新前建议导出 JSON 备份。将新版解压覆盖原安装目录，重新加载扩展并刷新网页；保留原路径以维持扩展 ID。
+
 ## 实际使用：读 SayCan 论文项目页
+
+以下三张截图来自 v0.1.0 的真实使用过程；新增旧语境提示与语境数量设置见上述更新说明。
 
 截图来自 [SayCan 项目页](https://say-can.github.io/) 的真实操作，仅裁剪了浏览器周边区域，没有替换插件界面或模型结果。网页及论文内容权利归原作者，本演示不代表对方为拾词背书。
 
@@ -36,7 +45,7 @@
 
 ## 安装：桌面 Chrome 142+
 
-1. 下载本页的 `lexiside-0.1.0-chrome.zip` 并解压到固定目录。
+1. 下载本页的 `lexiside-0.1.1-chrome.zip` 并解压到固定目录。
 2. 在 Chrome 地址栏打开 `chrome://extensions`，开启右上角“开发者模式”。
 3. 点击“加载已解压的扩展程序”，选择包含 `manifest.json` 的目录。
 4. 打开英文网页使用。需要学习分析时，在拾词侧栏的“设置 → 翻译与 AI → DeepSeek Key 与连接”填入自己的 Key。
