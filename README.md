@@ -90,6 +90,8 @@
 
 遇到安装问题或有功能建议，欢迎提交 [Issue](https://github.com/xdz97/lexiside/issues)，附上 Chrome 版本、操作步骤与报错即可，请勿上传 API Key 或私人词库。
 
+文档与公开介绍遵循[对外文案约定](WRITING_STYLE.md)。
+
 ## 源码构建
 
 需要 Node.js 22.12+ 与 npm 10+：
