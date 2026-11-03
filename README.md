@@ -2,9 +2,7 @@
 
 **读英文网页时，顺手把值得学习的词和表达留下来。**
 
-这是我以 Vibe Coding 专家身份交付的一款桌面 Chrome 插件。起点很小：读英文论文和技术文章时，查完一个词，不想再丢掉它所在的句子。
-
-拾词把“查词 → 理解语境 → 保存表达”放在同一个浏览器侧栏里。这也是我做 Vibe Coding 的方式：从自己的真实需求出发，把交互、数据备份、隐私和安装交付一起做完整。
+拾词是一款桌面 Chrome 插件，可以在阅读英文论文、技术文档和文章时查词、理解语境，并保存词义、原句和网页来源。
 
 [下载安装包](https://github.com/xdz97/lexiside/releases/download/v0.1.2/lexiside-0.1.2-chrome.zip) · [Release v0.1.2](https://github.com/xdz97/lexiside/releases/tag/v0.1.2) · [使用说明](INSTALL.txt) · [隐私说明](PRIVACY.md) · [版本说明](RELEASE_NOTES.md) · [问题反馈](https://github.com/xdz97/lexiside/issues)
 
@@ -86,13 +84,11 @@
 
 本包包含 React、MUI、Zod、Lucide、Inter 字体等组件。完整版本、版权声明、许可条款和免责声明见 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)。重新分发时请保留该文件及包内已有许可文件。
 
-第三方组件按各自许可证授权；这些许可证不自动适用于拾词自身代码、名称和图标。本仓库提供发行文件，不代表将拾词自身按 MIT 或其他开源许可证授权。
+项目原创源码采用 [MIT](LICENSE)。第三方组件和截图中的第三方内容仍适用各自的许可与权利声明。
 
-## 关于作者
+## 反馈
 
-我是 [xdz97](https://github.com/xdz97)，Vibe Coding 专家，专注把日常痛点做成可使用、可验证、可交付的工具。
-
-这个项目会持续记录从需求、交互到发布交付的实践。遇到安装问题或有功能建议，欢迎直接提交 [Issue](https://github.com/xdz97/lexiside/issues)，附上 Chrome 版本、操作步骤与报错即可，请勿上传 API Key 或私人词库。
+遇到安装问题或有功能建议，欢迎提交 [Issue](https://github.com/xdz97/lexiside/issues)，附上 Chrome 版本、操作步骤与报错即可，请勿上传 API Key 或私人词库。
 
 ## 源码构建
 
