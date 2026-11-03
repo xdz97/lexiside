@@ -6,9 +6,15 @@
 
 拾词把“查词 → 理解语境 → 保存表达”放在同一个浏览器侧栏里。这也是我做 Vibe Coding 的方式：从自己的真实需求出发，把交互、数据备份、隐私和安装交付一起做完整。
 
-[下载安装包](https://github.com/xdz97/lexiside/releases/download/v0.1.1/lexiside-0.1.1-chrome.zip) · [Release v0.1.1](https://github.com/xdz97/lexiside/releases/tag/v0.1.1) · [使用说明](INSTALL.txt) · [隐私说明](PRIVACY.md) · [版本说明](RELEASE_NOTES.md) · [问题反馈](https://github.com/xdz97/lexiside/issues)
+[下载安装包](https://github.com/xdz97/lexiside/releases/download/v0.1.2/lexiside-0.1.2-chrome.zip) · [Release v0.1.2](https://github.com/xdz97/lexiside/releases/tag/v0.1.2) · [使用说明](INSTALL.txt) · [隐私说明](PRIVACY.md) · [版本说明](RELEASE_NOTES.md) · [问题反馈](https://github.com/xdz97/lexiside/issues)
 
-> 本仓库提供插件发行版、文档和实际使用截图，当前不包含开发源码。安装包免费提供；DeepSeek 和豆包等外部服务需要你自己的 API Key，费用由对应服务商按用量收取。
+> 本仓库同时提供插件源码、发行安装包、文档和使用截图；项目原创源码采用 MIT 许可证。安装包免费提供；DeepSeek 和豆包等外部服务需要你自己的 API Key，费用由对应服务商按用量收取。
+
+## v0.1.2 更新
+
+- 词库中的每条语境显示当时保存的含义；点击来源标题可在新标签页打开原网页。
+- 旧记录没有含义时不显示空标签，缺少有效 HTTP(S) 来源时保留来源文字。
+- 本地翻译等待超过 30 秒后进入既有 DeepSeek 回退流程，未配置 Key 时提示设置并允许重试。
 
 ## v0.1.1 更新
 
@@ -45,7 +51,7 @@
 
 ## 安装：桌面 Chrome 142+
 
-1. 下载本页的 `lexiside-0.1.1-chrome.zip` 并解压到固定目录。
+1. 下载本页的 `lexiside-0.1.2-chrome.zip` 并解压到固定目录。
 2. 在 Chrome 地址栏打开 `chrome://extensions`，开启右上角“开发者模式”。
 3. 点击“加载已解压的扩展程序”，选择包含 `manifest.json` 的目录。
 4. 打开英文网页使用。需要学习分析时，在拾词侧栏的“设置 → 翻译与 AI → DeepSeek Key 与连接”填入自己的 Key。
@@ -87,3 +93,24 @@
 我是 [xdz97](https://github.com/xdz97)，Vibe Coding 专家，专注把日常痛点做成可使用、可验证、可交付的工具。
 
 这个项目会持续记录从需求、交互到发布交付的实践。遇到安装问题或有功能建议，欢迎直接提交 [Issue](https://github.com/xdz97/lexiside/issues)，附上 Chrome 版本、操作步骤与报错即可，请勿上传 API Key 或私人词库。
+
+## 源码构建
+
+需要 Node.js 22.12+ 与 npm 10+：
+
+```bash
+npm ci
+npm run typecheck
+npm test
+npm run build
+# 生成 ZIP：
+npm run zip
+```
+
+静态扩展位于 `apps/extension/.output/chrome-mv3`。开发模式运行 `npm run dev`，并加载 `chrome-mv3-dev`；生产用户可直接下载 Release ZIP。当前源码只包含独立 Chrome 扩展、共享包和构建/测试工具，生产构建无需本机桥接服务。
+
+`SOURCE_MANIFEST.json` 记录对应安装包的源码提交及公开文件哈希。`versions/` 保留安装包与同版本文档，历史版本不覆盖。语境、备份和 API Key 都是用户本机数据，不包含在源码中；请勿提交自己的数据或凭据。
+
+## 许可证
+
+项目原创源码采用 [MIT](LICENSE)。第三方组件和网页截图中的第三方内容仍遵循各自许可与权利声明，见 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)。这不改变外部 AI 服务需要用户自行配置 Key 和承担费用的方式。

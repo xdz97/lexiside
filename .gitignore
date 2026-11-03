@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.output/
+.wxt/
+coverage/
+*.log
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
+apps/companion/.runtime/
+.release-work/
+__pycache__/
+*.pyc

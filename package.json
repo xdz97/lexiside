@@ -1,0 +1,29 @@
+{
+  "name": "lexiside",
+  "version": "0.1.2",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/extension",
+    "packages/shared"
+  ],
+  "scripts": {
+    "build": "npm run build:extension",
+    "build:extension": "npm run build -w @lexiside/shared && npm run build -w @lexiside/extension",
+    "zip": "npm run build -w @lexiside/shared && npm run zip -w @lexiside/extension",
+    "dev": "npm run build -w @lexiside/shared && npm run dev -w @lexiside/extension",
+    "typecheck": "npm run build -w @lexiside/shared && npm run typecheck --workspaces --if-present",
+    "test": "npm run build -w @lexiside/shared && npm run test --workspaces --if-present",
+    "smoke:extension": "node scripts/smoke-extension.mjs",
+    "test:backup:disk": "node scripts/test-backup-disk.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0",
+    "npm": ">=10.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdz97/lexiside.git"
+  }
+}

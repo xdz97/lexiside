@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.2",
+  "archive": "lexiside-0.1.2-chrome.zip",
+  "bytes": 431130,
+  "sha256": "337da347f98f36c7ad0d0f7b617db34ded198c57fa7722a309999e0d41cf5fd1",
+  "sourceCommit": "14ce9c8be0c19d1a06f1c71736394ec7c2d50ce8",
+  "checks": [
+    "typecheck",
+    "automated-tests",
+    "production-build",
+    "zip-crc",
+    "manifest-references",
+    "basic-credential-and-development-path-scan"
+  ],
+  "files": {
+    "INSTALL.txt": "6fb5f67dd2964bef6373850443c0c77c3ac54d6d9f74e8adc2be3501d84f89c8",
+    "PRIVACY.md": "e7b5a42d3577b118f53fd14a04a7bdce6b28ab62d0fdaef8d848a5ccb669fd9b",
+    "THIRD_PARTY_NOTICES.txt": "c8540c9613d58c47cd8c53fbde8121e9d137058a06b1481354d3ccd87dc29bdd",
+    "assets/LICENSE-CHm4TUe6.": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+    "assets/inter-latin-wght-normal-Dx4kXJAl.woff2": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+    "background.js": "05e8691a17e5da1b87743048c7a5a98b2becd6e38d9332004133ae0ff7595339",
+    "chunks/CurrentView-n-6je1n8.js": "66fc3576d69bc4c482918e21f6ade4ff1a68e5afb2eab2d669c05c1e23997134",
+    "chunks/LearningDetails-I0GI6n4u.js": "1203626cefc6b292fd6b2aebf1b1346788e429413ebb9877a6679c5b6cb5533d",
+    "chunks/LibraryView-hSc6ivsd.js": "0161538b306b1e9bb162c31b0ad54ae3e273ac3ab66d466dbd795f94cda36023",
+    "chunks/MenuItem-Dc9hjomO.js": "c263d94ebf9285930705a13610fe45a7070829a00ba3f39e0b128ab22c7bfe81",
+    "chunks/SettingsView-C1HMzfN6.js": "662b506ea9c1f2d3cfccf618cf0933cd6a29f55c229a40a2f93767e689f7e6e5",
+    "chunks/_virtual_wxt-html-plugins-P2Xu9kJm.js": "418c206484b89b68ef5f067277831e583fc9193a62aadf4de269acaaeb12a85f",
+    "chunks/offscreen-C832N3K1.js": "59974edd63d2dc7e00c3055977fad3065dcf7884c9fa7b6d212ae8891b706aea",
+    "chunks/sidepanel-DZ0EZQCp.js": "5c8be756c67771cb6957dc4f9a7e1ef5ff13150915f4f3a8816b94f11b59dbe0",
+    "content-scripts/content.js": "1e104f8adc7a1058280c268b75a7b3f5f4a82c8e48ae1b3ad159d9b76d165748",
+    "icon-128.png": "e6e64ad7b691f35f0491ede19bbadc4fd79764180bf8be62d24def8171784de4",
+    "icon-16.png": "9918102a6fbfd54fb073079b864acdf3488fd23fa6e88e46c767b8eb7182b26e",
+    "icon-32.png": "7e03fc78e6c131b1b1176296dcea98a420a4efd13caf493fec9981b8fbe654b1",
+    "icon-48.png": "3de4a1d6a7714e5d00cfdbd2e080c10156742d4dbeabd4ca4660356cbaa2456a",
+    "icon.svg": "fe19504cb559df45c01328c5ec6108f4ab448eccd4cbf1f8ddc5213ab347ec43",
+    "manifest.json": "adec11d3d60e1955d569a0028f0a9c986dfffc19044919f7e69b3cd3fd66a4e1",
+    "offscreen.html": "e94a30f2321c499e9b2be73b5284cb6f0f66bdf45087526d239c8b0abe3269cb",
+    "sidepanel.html": "fd80e4ec2f086100d94b5d9fa00a3faf4042dc45d0fca381cbfc6ca6635c0ffd"
+  },
+  "fileCount": 23,
+  "documents": {
+    "README.md": "1203f264c2b2beda6e8b4d21de674610036ee5d622710aef23928a8366553a40",
+    "INSTALL.txt": "6fb5f67dd2964bef6373850443c0c77c3ac54d6d9f74e8adc2be3501d84f89c8",
+    "PRIVACY.md": "e7b5a42d3577b118f53fd14a04a7bdce6b28ab62d0fdaef8d848a5ccb669fd9b",
+    "RELEASE_NOTES.md": "32a1c6d9eef0b4c90ffdc276d86d1e4ad350c656ca2e145dbd2a79b0a83ef531",
+    "THIRD_PARTY_NOTICES.txt": "c8540c9613d58c47cd8c53fbde8121e9d137058a06b1481354d3ccd87dc29bdd",
+    "SHA256SUMS.txt": "4fd9f6e25e671a6ede66b9828a1c1b2977d920fafc38e1c44aea890401d14ecf"
+  }
+}

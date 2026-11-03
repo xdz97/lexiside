@@ -1,0 +1,16 @@
+Package: wxt@0.21.4
+License: MIT
+Upstream release: https://github.com/wxt-dev/wxt/tree/wxt-v0.21.4
+License source: https://raw.githubusercontent.com/wxt-dev/wxt/wxt-v0.21.4/LICENSE
+
+The installed wxt@0.21.4 npm package declares MIT but does not include a
+LICENSE file. LICENSE in this directory preserves the upstream release's
+copyright and complete license text for the WXT runtime bundled in LexiSide.
+Recheck this exception when changing the WXT version.
+
+Also applies to: @wxt-dev/browser@0.3.0
+This package belongs to the same wxt-dev/wxt repository, declares MIT,
+and likewise omits LICENSE from its npm tarball. The shared project license
+has the same copyright holder and text at the pinned commit below:
+https://github.com/wxt-dev/wxt/blob/bdfcc52f37d910a81ebbe319697a263e05408a17/LICENSE
+Recheck this exception when changing the @wxt-dev/browser version.
